@@ -4,6 +4,23 @@ A tiny standalone CLI for discovering and exploring tools in the [Wyre MCP Gatew
 
 ## Install
 
+`mcpgw` is published to **GitHub Packages** (not public npm), so you'll need a one-time auth
+config. Add to `~/.npmrc`:
+
+```
+@wyre-technology:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
+```
+
+Where `GITHUB_TOKEN` is a [GitHub Personal Access Token](https://github.com/settings/tokens)
+with the `read:packages` scope. You can export it in your shell:
+
+```bash
+export GITHUB_TOKEN=ghp_your_token_here
+```
+
+Then install globally:
+
 ```bash
 npm install -g @wyre-technology/mcpgw
 ```
