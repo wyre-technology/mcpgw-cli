@@ -22,7 +22,12 @@
   "engines": {
     "node": ">=20"
   },
-  "keywords": ["mcp", "cli", "gateway", "wyre"],
+  "keywords": [
+    "mcp",
+    "cli",
+    "gateway",
+    "wyre"
+  ],
   "author": "Wyre Technology",
   "license": "Apache-2.0",
   "repository": {
@@ -36,7 +41,7 @@
     "@types/node": "^22.10.0",
     "tsup": "^8.3.5",
     "tsx": "^4.22.4",
-    "typescript": "^5.7.2",
+    "typescript": "^6.0.3",
     "vitest": "^2.1.8"
   },
   "publishConfig": {
